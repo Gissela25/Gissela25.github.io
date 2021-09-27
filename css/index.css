@@ -14,7 +14,7 @@ body{
     text-align: center;
     font-family: Raleway;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    background: rgba(49, 107, 131, 1);
+    background: rgba(94, 89, 70, 1);
     position: relative;
 }
 .nav a
@@ -40,7 +40,7 @@ footer{
     text-align: center;
     width: 100%;
     padding: 15px 0px;
-    background:  rgba(49, 107, 131, 1);
+    background:  rgba(94, 89, 70, 1);
     bottom: 0;
     position: fixed;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
