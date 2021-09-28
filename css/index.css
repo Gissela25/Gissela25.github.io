@@ -94,7 +94,7 @@ h3 {
   text-align: center;
 }
 .boton{
-  background-color:#0F52BA;
+  background-color:#F8C7A7;
   padding: 7px;
   margin-top: 10px;
   border-radius: 5px;
@@ -106,7 +106,7 @@ h3 {
   transition: background 3s, color 1s;
  }
  .boton:hover{
-  background: #5077c7;
+  background: #F8C7A7;
  }
  .boton a{
   text-decoration: none;
@@ -191,4 +191,4 @@ h3 {
   #flores .boton:hover {
     background: rgba(91, 179, 255, 1);
   } */
-}
+
