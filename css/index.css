@@ -119,7 +119,10 @@ h3 {
   body {
     font-size: 18px;
   }
-
+  .boton{
+    width: 92%;
+    margin: 5px auto
+}
   .nav {
     transition: 0.4s;
     color: #ffffff;
