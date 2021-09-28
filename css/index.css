@@ -114,15 +114,18 @@ h3 {
   width: 100%;
   margin: 0px;
   display: block;
-}      
+}       
 @media (max-width: 480px) {
   body {
     font-size: 18px;
   }
-  .boton{
-    width: 92%;
-    margin: 5px auto
-}
+  .boton a{
+    text-decoration: none;
+    color: white;
+    width: 90%;
+    margin: 5px;
+    display: block;
+  }    
   .nav {
     transition: 0.4s;
     color: #ffffff;
@@ -163,11 +166,9 @@ h3 {
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
 
-  #informacion {
-    margin-bottom: 0;
   }
 
-  #flores .boton a {
+  /* #flores .boton a {
     margin-left: 5%;
   }
 
@@ -189,5 +190,5 @@ h3 {
 
   #flores .boton:hover {
     background: rgba(91, 179, 255, 1);
-  }
+  } */
 }
