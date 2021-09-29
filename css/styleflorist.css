@@ -65,6 +65,9 @@
     width: 80%;
     margin-bottom: 5%;
   }
+  p{
+    color: #e25b45;
+  }
   .opciones {
     padding: 2%;
     background: white;
