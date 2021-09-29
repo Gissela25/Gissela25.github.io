@@ -112,6 +112,9 @@
       margin: 0 5px;
     }
   
+    p{
+      color: #e25b45;
+    }
     .nav:hover {
       background-color: #ffffff;
       color: rgba(49, 107, 131, 1);
