@@ -8,7 +8,13 @@
     <link rel="icon" href="img/logotipe.ico">
     <link rel="stylesheet" href="./css/stylehome.css">
 </head>
-<body>
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <section>
         <nav class="nav">
             <!-- <a href=""><img src="img/logotipe.jpeg"  class="logo" /></a>  -->
@@ -117,5 +123,12 @@
     <footer>
         &#169 JOGIWISUBY 2021
     </footer>
+    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+    <script>
+        window.onload = function(){
+            $('#onload').fadeOut();
+            $('body').removeClass('hidden');
+        }
+    </script>
 </body>
 </html>
