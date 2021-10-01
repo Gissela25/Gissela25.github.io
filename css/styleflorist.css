@@ -81,7 +81,7 @@
     padding: 15px 0px;
     background: rgba(250, 169, 150, 1);
     bottom: 0;
-    /* position: fixed; */
+    position: fixed;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     color: white;
   }
