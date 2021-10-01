@@ -7,7 +7,13 @@
     <link rel="icon" href="../img/CELIFLOR/Celiflorico.png">
     <link rel="stylesheet" href="../css/styleflorist.css">
 </head>
-<body>
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <section>
         <nav class="nav">
             <a class="link" href="celiflor.html">Catalogo</a>
@@ -110,5 +116,12 @@
     <footer>
         &#169 JOGIWISUBY 2021
     </footer>
+    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+    <script>
+        window.onload = function(){
+            $('#onload').fadeOut();
+            $('body').removeClass('hidden');
+        }
+    </script>
 </body>
 </html>

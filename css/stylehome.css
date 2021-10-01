@@ -19,7 +19,7 @@ body {
 }
 .lds-ripple {
   display: inline-block;
-  position: relative;
+  position:relative;
   width: 80px;
   height: 80px;
 }

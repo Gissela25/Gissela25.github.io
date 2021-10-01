@@ -7,7 +7,20 @@
     <link rel="icon" href="../img/VENECIA/veneciaico.png">
     <link rel="stylesheet" href="../css/styleflorist.css">
 </head>
-<body>
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+    <script>
+        window.onload = function(){
+            $('#onload').fadeOut();
+            $('body').removeClass('hidden');
+        }
+    </script>
     <section>
         <nav class="nav">
             <a class="link" href="venecia.html">Catalogo</a>
