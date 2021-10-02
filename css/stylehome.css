@@ -174,11 +174,7 @@ h3 {
 #contenido
 {
     position: relative;
-    width: 96%;
-    height: 700px;
-    left: 0px;
-    background: url("../img/desktop.jpeg") no-repeat;
-
+    height: 560px;
 }
 @media (max-width: 480px) {
   body {
