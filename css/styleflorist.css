@@ -85,6 +85,16 @@
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     color: white;
   }
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background:rgb(253, 198, 116);
+    border-radius: 80px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background:rgb(248, 207, 144);
+  }
   
 #informacion {
     margin-bottom: 5%;

@@ -7,6 +7,16 @@
   body {
     font-size: 20px;
   }
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background:rgb(253, 198, 116);
+    border-radius: 80px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background:rgb(248, 207, 144);
+  }
   /*PRELOAD*/
 .hidden{
   overflow: hidden;
