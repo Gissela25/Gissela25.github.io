@@ -175,6 +175,11 @@
     margin-top: 15px;
     text-align: center;
   }
+  .fa-mobile
+  {
+    color: #e25b45;
+    font-size: 25px;
+  }
   @media (max-width: 480px) {
     body {
       font-size: 18px;
