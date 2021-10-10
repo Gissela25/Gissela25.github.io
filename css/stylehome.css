@@ -187,19 +187,17 @@ h3 {
     margin: 5px;
     display: block;
   }    
-  .nav {
-    transition: 0.4s;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 50px 20px;
-    margin: 0 5px;
+   header nav{
+    width: 80%;
+    height: 100%;
+    margin:0;
+    position: fixed;
   }
-
-  .nav:hover {
-    background-color: #ffffff;
-    color: rgba(49, 107, 131, 1);
-    padding: 24px 10px;
-  }
+  header nav ul li{
+    display: block;
+    float: none;
+    border-bottom: 1px solid rgba(255, 131, 87, 1);
+  } 
   .image {
     display: block;
     margin: auto;
