@@ -200,6 +200,11 @@
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
   }
+  .fa-twitter
+  {
+    color: rgba(255, 131, 87, 1);
+    font-size: 50px;
+  }
   @media (max-width: 480px) {
     body {
       font-size: 18px;

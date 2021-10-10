@@ -3,13 +3,13 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+/*   
   body {
     /* background-image: url(/img/home-contac.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin: 0; */
-  }
+  
   
   ::-webkit-scrollbar{
     width: 8px;
@@ -108,13 +108,13 @@
   }
      
   form{
-      width: 600px;
+      width: 450px;
       margin: auto;
-      background: #F9D5A7;
+      background: #FEF1E6;
       padding: 10px 20px;
       box-sizing: border-box;
       margin-top: 20px;
-      border-radius: 7px;
+      border-radius: 10px;
   }
   h2{
     color: #FFB085;
@@ -137,8 +137,8 @@
     max-width: 100%;
   }
   #boton{
-    background: #90AACB;
-    color:black;
+    background: #fac172;
+    color:white;
     padding: 20px;
     border-radius: 7px;
 
