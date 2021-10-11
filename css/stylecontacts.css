@@ -19,7 +19,7 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
   max-width: 992px;
   margin: 0 auto;
@@ -75,7 +75,10 @@ body {
 
   display: none;
 }
-
+.fa-arrow-alt-circle-left
+{
+  color: white;
+}
 /* MOBILE */
 @media (max-width: 768px) {
   body {
