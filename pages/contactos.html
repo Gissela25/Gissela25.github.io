@@ -1,56 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOGIWISUBY</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
 
-    <link rel="icon" href="img/logotipe.ico">
-    <link rel="stylesheet" href="/css/stylecontacts.css">
-</head>
-<body class="hidden">
-    <div class="centrado" id="onload">
-        <div class="lds-ripple">
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <section id="home">
-        <nav class="nav">
-            <!-- <a href=""><img src="img/logotipe.jpeg"  class="logo" /></a>  -->
-            <a href="/index.html" ><script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
-                <lord-icon
-                    src="https://cdn.lordicon.com/gmzxduhd.json"
-                    trigger="loop"
-                    colors="primary:#ffffff,secondary:#ffb344"
-                    stroke="100"
-                    style="width:30px;height:30px">
-                </lord-icon>
-                </lord-icon>
-                </lord-icon>
-                </lord-icon>
-                </lord-icon>Inicio</a>
-        </nav>
-    </section> 
-   <form action="">
-       <h2>Contactanos</h2>
-       <input type="text" name="nombre" placeholder="Nombre">
-       <input type="text" name="correo" placeholder="Correo">
-       <input type="text" name="telefono" placeholder="Telefono">
-       <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
-       <input type="button" value="Enviar" id="boton">
-
-
-   </form>
-    <footer>
-        &#169 JOGIWISUBY 2021
-    </footer>
-    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"> </script>
-    <script>
-        window.onload = function(){
-            $('#onload').fadeOut();
-            $('body').removeClass('hidden');
-        }
-    </script>
-</body>
+    <link rel="stylesheet" href="/css/stylecontacts.css" />
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/js/contactanos.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo nav-link">JOGIWISUBY</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="/index.html" class="nav-menu-link nav-link">Inicio</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+            <form action="">
+                <h2>Contactanos</h2>
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="correo" placeholder="Correo">
+                <input type="text" name="telefono" placeholder="Telefono">
+                <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+                <input type="button" value="Enviar" id="boton">
+         
+            </form>
+       
+    </main>
+  </body>
 </html>
