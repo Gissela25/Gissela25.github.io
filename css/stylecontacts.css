@@ -58,7 +58,7 @@ body {
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
-  background-color: #034574;
+  background-color: rgba(255, 179, 68, 1);
   transition: 0.5s;
 }
 
@@ -115,7 +115,7 @@ body {
   .nav-menu-link:hover,
   .nav-menu-link_active {
     background: none;
-    color: #83c5f7;
+    color: rgba(255, 131, 87, 1);;
   }
 
   .nav-toggle {
