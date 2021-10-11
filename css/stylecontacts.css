@@ -34,7 +34,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   padding: 0 40px;
-  line-height: 80px;
+  line-height: 80px; 
 }
 
 .nav-menu {
@@ -45,10 +45,11 @@ body {
 
 .nav-menu-item {
   font-size: 18px;
-  margin: 0 10px;
+  margin: 0 30px;
   line-height: 80px;
   text-transform: uppercase;
-  width: max-content;
+  width: max-content; 
+  text-align: center;
 }
 
 .nav-menu-link {
