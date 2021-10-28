@@ -80,6 +80,21 @@ body {
 {
   color: white;
 }
+#seleccionar
+{
+  background: #fac172;
+  color:white;
+  padding: 20px;
+  border-radius: 7px;
+}
+#combox
+{
+  background: #fac172;
+  color:white;
+  padding: 15px;
+  border-radius: 7px;
+  align-items: center;
+}
 /* MOBILE */
 @media (max-width: 768px) {
   body {
