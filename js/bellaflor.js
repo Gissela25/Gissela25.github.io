@@ -19,12 +19,17 @@ function mostrar()
     {
         case "api":
             // Utilizando la Api de Local Storage, podemos guardar y luegorecuperar un valor
-            localStorage.setItem('bienvenida', 'Ser madre no se puede describir con palabras Es ternura y vocación que inspira día a día por su gran amor Por ello nuestras floristas, madres también, han trabajado en esta selección de arreglos florales que expresan una pequeña parte de lo que significa ser mamá Descubre aquí la combinación perfecta de flores que transmita a mamá el agradecimiento y el cariño de tantos Un hermoso arreglo que consta de ');
+            localStorage.setItem('bienvenida','se puede describir con palabras Es ternura y vocación que inspira día a día por su gran amor Por ello nuestras floristas, madres también, han trabajado en esta selección de arreglos florales que expresan una pequeña parte de lo que significa ser mamá Descubre aquí la combinación perfecta de flores que transmita a mamá el agradecimiento y el cariño de tantos Un hermoso arreglo que consta de ');
             valor = localStorage.getItem('bienvenida');
             break;
         case "array":
             // Utilizar notación de matrices o arreglos
-            localStorage['bienvenida'] = 'Bienvenidos, también podemos usar notación de matrices';
+            localStorage['bienvenida'] = 'Ser madre no se puede describir con palabras. Es ternura y vocación que inspira día a día por su gran amor' + 
+            ' Por ello nuestras floristas, madres también, han trabajado en esta selección de arreglos florales que expresan una pequeña parte de lo que significa ser mamá.' +
+            'Descubre aquí la combinación perfecta de flores que transmita a mamá el agradecimiento y el cariño de tantos Un hermoso arreglo que consta de:' + 
+            'Orquideas en base de cerámica pequeña,' +
+            'Ramilletes de girasoles y rosas,' +
+            'Tropical bucket, todo por un precio de $150.';
             valor = localStorage['bienvenida'];
             break;
         case "object":
@@ -37,7 +42,7 @@ function mostrar()
             break;
     }
     var contenido = document.getElementById("content");
-    contenido.innerHTML = "<p>\nDescripción : "  + valor + "\n\t</p>\n";
+    contenido.innerHTML = "<h1>\n\t DESCRIPCIÓN \n\t</h2>" + valor + "";
 }
 
 if(window.addEventListener)
